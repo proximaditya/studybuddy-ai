@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+/* Hide default file input button nicely */
+input[type="file"]::file-selector-button {
+  display: none;
+}
